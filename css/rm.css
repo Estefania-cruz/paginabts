@@ -56,6 +56,7 @@ body {
     height: 17rem;
     background: linear-gradient(45deg, #BC3CFF, #317FFF);
     border-radius: 0 0 20px 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/181201_BTS_at_the_MelOn_Music_Awards.jpg/640px-181201_BTS_at_the_MelOn_Music_Awards.jpg");
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
@@ -818,26 +819,6 @@ body {
     color: #fff;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -904,4 +885,148 @@ body {
     #mainNav .navbar-nav .nav-item:last-child {
       margin-right: 0;
     }
+  }
+
+  .collapse:not(.show) {
+    display: none;
+  }
+  .collapsing.collapse-horizontal {
+    width: 0;
+    height: auto;
+    transition: width 0.35s ease;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .collapsing.collapse-horizontal {
+      transition: none;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .accordion-button {
+      transition: none;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    color: #e6b400;
+    background-color: #fffae6;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6b400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+  }
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .accordion-button::after {
+      transition: none;
+    }
+  }
+  .accordion-button:hover {
+    z-index: 2;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #ffe480;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  }
+  
+  .accordion-header {
+    margin-bottom: 0;
+  }
+  
+  .accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .accordion-item:first-of-type {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  .accordion-item:not(:first-of-type) {
+    border-top: 0;
+  }
+  .accordion-item:last-of-type {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  .accordion-item:last-of-type .accordion-collapse {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  
+  .accordion-body {
+    padding: 1rem 1.25rem;
+  }
+  
+  .accordion-flush .accordion-collapse {
+    border-width: 0;
+  }
+  .accordion-flush .accordion-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+  }
+  .accordion-flush .accordion-item:first-child {
+    border-top: 0;
+  }
+  .accordion-flush .accordion-item:last-child {
+    border-bottom: 0;
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 1rem;
+    list-style: none;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item {
+    padding-left: 0.5rem;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+  }
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  
+  .pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .page-link {
+    position: relative;
+    display: block;
+    color: #ffc800;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
