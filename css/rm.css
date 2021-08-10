@@ -3,7 +3,7 @@ html {
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
     line-height: 1.4;
-    background-color: palevioletred;
+    background-color: rgb(207, 90, 127);
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 
 }
@@ -15,11 +15,12 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+   
 }
 
 
 body {
-    color: #070707;
+    color: #d31ca5;
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
 
@@ -45,7 +46,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#B873FF, transparent);
+    background: linear-gradient(#8e44d8, transparent);
     margin-bottom: 1.25rem;
 }
 
@@ -66,8 +67,8 @@ body {
     border: 0;
     border-radius: 8px;
     padding: 12px 25px;
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
+    background-color: rgba(207, 72, 235, 0.5);
+    color: rgb(128, 24, 224);
     cursor: pointer;
 }
 
@@ -81,8 +82,8 @@ body {
     height: 180px;
     align-items: center;
     justify-content: center;
-    border: 7px solid #ae23d8;
-    background-color: #d069f8;
+    border: 7px solid #bc1eec;
+    background-color: #b841e7;
     border-radius: 50%;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
     position: relative;
@@ -124,7 +125,7 @@ body {
 }
 
 .seccion-perfil-usuario .perfil-usuario-body .texto {
-    color: #848484;
+    color: #111111;
     font-size: 0.95em;
 }
 
@@ -135,7 +136,7 @@ body {
     flex-wrap: wrap;
     padding: 1.5rem 2rem;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-    background-color: #fff;
+    background-color: rgb(248, 104, 193);
     border-radius: 15px;
     width: 100%;
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
@@ -189,7 +190,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: rgb(245, 78, 209);
+    color: rgb(238, 123, 213);
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
     font-size: 10px;
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
@@ -447,7 +448,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #b52bdf;
 }
 
 sub,
@@ -467,11 +468,11 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: #2f00ff;
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #1c03f7;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -514,7 +515,7 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: #fff;
+  color: rgb(245, 163, 234);
   background-color: #212529;
   border-radius: 0.2rem;
 }
@@ -837,8 +838,8 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: rgb(196, 40, 243);
+  border: 1px solid #7e0fd8;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -2201,7 +2202,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #ab13d1;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -2254,27 +2255,27 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #fff4cc;
-  --bs-table-striped-bg: #f2e8c2;
+  --bs-table-bg: #d833d8;
+  --bs-table-striped-bg: #c91ce0;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #e6dcb8;
+  --bs-table-active-bg: #d410ba;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #ece2bd;
+  --bs-table-hover-bg: #bd0fbd;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #e6dcb8;
+  border-color: #db46e9;
 }
 
 .table-secondary {
-  --bs-table-bg: #e2e3e5;
-  --bs-table-striped-bg: #d7d8da;
+  --bs-table-bg: #e014d6;
+  --bs-table-striped-bg: #e014d6;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #cbccce;
-  --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #d1d2d4;
-  --bs-table-hover-color: #fff;
+  --bs-table-active-bg: #e014d6;
+  --bs-table-active-color: #e014d6;
+  --bs-table-hover-bg: #e014d6;
+  --bs-table-hover-color: #e014d6;
   color: #000;
-  border-color: #cbccce;
+  border-color: #e014d6;
 }
 
 .table-success {
@@ -2732,8 +2733,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
 }
 .form-check-input:checked {
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #ff00dd;
+  border-color: #c300ff;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2742,8 +2743,8 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #ff00dd;
+  border-color: #8c00ff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -2808,10 +2809,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 1px rgb(43, 57, 184), 0 0 0 0.25rem rgba(111, 104, 219, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 1px rgb(199, 93, 93), 0 0 0 0.25rem rgba(119, 47, 202, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -4706,32 +4707,32 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(228, 42, 188, 0.55);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(216, 18, 223, 0.562);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: black;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(188, 27, 236, 0.55);
+  border-color: rgba(250, 23, 239, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(165, 4, 240, 0.55);
 }
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: rgb(192, 31, 255);
 }
 
 .card {
@@ -11582,11 +11583,11 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: rgb(243, 8, 184);
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #ff0095;
 }
 
 @media (min-width: 992px) {
@@ -11594,7 +11595,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11699,7 +11700,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: palevioletred;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
